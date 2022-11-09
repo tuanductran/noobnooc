@@ -12,7 +12,7 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "typescript.tsc.autoDetect": "off",
-  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.tsdk": ".yarn/sdks/typescript/lib",
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "eslint.validate": [
     "javascript",
@@ -21,5 +21,11 @@
     "typescriptreact"
   ],
   "eslint.lintTask.enable": true,
-  "css.lint.vendorPrefix": "ignore"
+  "css.lint.vendorPrefix": "ignore",
+  "search.exclude": {
+    "**/.yarn": true,
+    "**/.pnp.*": true
+  },
+  "eslint.nodePath": ".yarn/sdks",
+  "prettier.prettierPath": ".yarn/sdks/prettier/index.js"
 }
