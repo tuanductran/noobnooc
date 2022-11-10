@@ -32,8 +32,6 @@ export function Home() {
           ⌃
         </a>
       </div>
-      <Menu id="menu" className={classes.page} />
-      <About id="about" className={classes.page} />
 
       <LanguageIndicator
         className={classNames(classes.languageIndicator, {
