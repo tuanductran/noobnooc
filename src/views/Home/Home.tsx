@@ -1,13 +1,14 @@
 import classNames from "classnames";
 import React, { useState } from "react";
+import { ReactComponent as Avatar } from "./avatar.svg";
 import { LanguageIndicator } from "../../components/LanguageIndicator";
-import { About } from "./AboutCard";
 
 import classes from "./Home.module.css";
-import { Menu } from "./Menu";
 
 export function Home() {
-  const [atTop, setAtTop] = useState(true);
+  const [_atTop, setAtTop] = useState(true);
+
+  console.log("#######", Avatar);
 
   return (
     <div
@@ -16,28 +17,10 @@ export function Home() {
         setAtTop(event.currentTarget.scrollTop <= 0);
       }}
     >
-      <div className={classes.page}>
-        <div className={classes.face}>
-          <div className={classes.eyesRow}>
-            <div className={classNames(classes.eye, classes.eyeLeft)}></div>
-            <div className={classNames(classes.eye, classes.eyeRight)}></div>
-          </div>
-        </div>
-        <a
-          className={classNames(classes.pageIndicator, {
-            [classes.hidden]: !atTop,
-          })}
-          href="#menu"
-        >
-          ⌃
-        </a>
+      <div className={classNames(classes.page, classes.avatarPage)}>
+        <Avatar />
       </div>
-
-      <LanguageIndicator
-        className={classNames(classes.languageIndicator, {
-          [classes.hidden]: atTop,
-        })}
-      />
+      {/* <LanguageIndicator className={classes.languageIndicator} /> */}
     </div>
   );
 }

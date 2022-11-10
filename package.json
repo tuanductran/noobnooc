@@ -7,7 +7,7 @@
   "author": "Nooc <nooc@nooc.ink>",
   "license": "MIT",
   "scripts": {
-    "start": "vite",
+    "start": "vite --host",
     "build": "vite build",
     "format": "prettier --write .",
     "lint:prettier": "prettier --check .",
