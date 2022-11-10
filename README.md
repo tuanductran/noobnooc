@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-[![Website Status](https://img.shields.io/website?label=https://www.nooc.ink&down_color=lightgrey&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fwww.nooc.ink)](https://www.nooc.ink)
+[![Deploy Pages](https://github.com/noobnooc/noobnooc/actions/workflows/pages-deployment.yml/badge.svg?branch=main)](https://github.com/noobnooc/noobnooc/actions/workflows/pages-deployment.yml) [![Website Status](https://img.shields.io/website?label=https://www.nooc.ink&down_color=lightgrey&down_message=offline&up_color=green&up_message=online&url=https%3A%2F%2Fwww.nooc.ink)](https://www.nooc.ink)
 ![](https://komarev.com/ghpvc/?username=noobnooc&color=brightgreen)
 
 - 🔭 I’m currently working on emo
@@ -19,15 +19,12 @@
 ![](https://img.shields.io/badge/React-★★★-61DAFB?logo=React)
 ![](https://img.shields.io/badge/CSS-★★★-1572B6?logo=CSS3)
 ![](https://img.shields.io/badge/NodeJS-★★★-339933?logo=Node.js)
+![](https://img.shields.io/badge/Swift-★★-F05138?logo=Swift)
 ![](https://img.shields.io/badge/Linux-★★-FCC624?logo=Linux)
 ![](https://img.shields.io/badge/Git-★★-F05032?logo=Git)
 ![](https://img.shields.io/badge/Docker-★★-2496ED?logo=Docker)
-![](https://img.shields.io/badge/Socket.io-★★-010101?logo=Socket.io)
-![](https://img.shields.io/badge/MongoDB-★★-47A248?logo=MongoDB)
-![](https://img.shields.io/badge/Vite-★★-646CFF?logo=Vite)
 ![](https://img.shields.io/badge/Electron-★★-47848F?logo=Electron)
-![](https://img.shields.io/badge/Swift-★-F05138?logo=Swift)
-![](https://img.shields.io/badge/Vue-★-4FC08D?logo=Vue.js)
+![](https://img.shields.io/badge/MongoDB-★★-47A248?logo=MongoDB)
 
 > - ★★★: Frequently used
 > - ★★: Mostly used
